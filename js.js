@@ -37,7 +37,7 @@ fetch("https://boiling-reaches-93648.herokuapp.com/week-3/party")
 .then(js21_getApi => js21_getApi.json())
 .then(js21_getApiData => {
 
-    console.log(js21_getApiData. )
+    console.log(js21_getApiData)
 
     // let output = "<h2>Visos Photo</h2>"
     // js21_getApiData.forEach((item, index) => {
@@ -48,3 +48,5 @@ fetch("https://boiling-reaches-93648.herokuapp.com/week-3/party")
     // document.getElementById("photo").innerHTML = output;
 })
 .catch(err => console.log("nepavyko", err));
+
+alert("pakeitimai")
